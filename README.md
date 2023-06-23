@@ -1,22 +1,39 @@
-# react-native-keyboard-scrollview
+# React Native Keyboard Avoiding Input
 
-fixed react native ios bug
+React Native Keyboard Avoiding Input is a React Native package that solves the problem of input fields being covered by the iOS keyboard when it's open.
 
 ## Installation
+
+You can install the package to your project with the following command:
 
 ```sh
 npm install react-native-keyboard-scrollview
 ```
-
-## Usage
+or
+```sh
+yarn add react-native-keyboard-scrollview
+```
+## Example
 
 ```js
-import { multiply } from 'react-native-keyboard-scrollview';
+import KeyboardScrollView from 'react-native-keyboard-scrollview';
 
-// ...
 
-const result = await multiply(3, 7);
+<CustomView usingType="ios">
+  //...
+</CustomView>;
 ```
+
+
+#### Props
+
+
+| Parametre | default    | Açıklama                |
+| :-------- | :------- | :------------------------- |
+| `usingType` | `string` | select  android, ios or both |
+| `paddingSize` | `number` | choose padding size default 350|
+
+  
 
 ## Contributing
 
@@ -28,4 +45,4 @@ MIT
 
 ---
 
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+we <3 tuta
