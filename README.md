@@ -19,9 +19,9 @@ yarn add react-native-keyboard-scrollview
 import KeyboardScrollView from 'react-native-keyboard-scrollview';
 
 
-<CustomView usingType="ios">
+<KeyboardScrollView usingType="ios">
   //...
-</CustomView>;
+</KeyboardScrollView>;
 ```
 
 
